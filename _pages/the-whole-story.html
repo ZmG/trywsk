@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load navactive %}{% load markdown_deux_tags %}
+{% block page_js %}
+
+<script type='text/javascript'>
+
+$(document).ready( function() {
+    addAnchors('box-anchors');
+});
+
+</script>
+{% endblock %}
+
+
+{% block title %}
+
+{% endblock title %}
+
+
+{% block content %}
+
+
+<div class="container">
+<div class="row" >
+    <div class="span12 text-center">
+        <div class="copy-headline">
+            {% markdown %}{% block copy_headline %}
+                # Placeholder for content #
+            {% endblock %}{% endmarkdown %}
+        </div>
+    </div>
+</div>
+<div class="row" >
+    <div class="span12 paper">
+        <div id="" class="span8 offset2">
+
+            {% markdown %}{% block copy_introduction %}
+            {% endblock %}{% endmarkdown %}
+
+            <h2>Table of contents</h2>
+            <ul id="box-anchors" class="table-of-contents">
+
+            </ul>
+
+            {% markdown %}{% block copy_1 %}
+                <h1>Placeholder for content</h1>
+            {% endblock %}{% endmarkdown %}
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,394 @@
+[
+{
+  "pk": 1, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Thatcher Peskens is User Experience Designer and front end developer at dotCloud. He comes from the Netherlands and with a background in industrial design, web development and experience in web hosting he works on making everything user facing a pleasure to use.", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "thatcher@dotcloud.com", 
+    "show_as_team": true, 
+    "full_name": "Thatcher Peskens", 
+    "email": "", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 2, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "This is Ben", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "golubbe40@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "Ben Golub", 
+    "email": "", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 3, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Eric serves as CFO for dotCloud and is one of its first employees. A native from France, Eric was the financial leader behind many multi-national companies in the high-tech field. He hopes to use his 20 years of experience to grow dotCloud into a market leader.  Beyond finance, Eric unofficially sports the title of CWO \u2013 Chief Wine Officer \u2013 where he leads after-work wine tasting lessons. ", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "eric@dotcloud.com", 
+    "show_as_team": true, 
+    "full_name": "Eric Bardin", 
+    "email": "", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 4, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "John Costa is a developer support engineer at dotCloud.  He brings with him a background in web technologies and systems engineering.", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "john.costa@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "John Costa", 
+    "email": "john.costa@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 5, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Michael Crosby is one of the newest members of the dotCloud team working full time on Docker as a core maintainer.  Michael has been an active member of various open source communities and has worked as a software engineer designing beautiful APIs in various industries.", 
+    "sort_weight": 10, 
+    "index_name": "crosbymichael", 
+    "gravatar_email": "crosby.michael@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "Michael Crosby", 
+    "email": "michael.crosby@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 6, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Yannis is the Operations Manager at dotCloud, unofficially the Director of Awesome, wearing the many hats needed to run the back office from bookkeeper to salesperson to office manager. His obsession lies in automation, replacing ever menial task he's told to do with an army of small shell scripts -- thus the \"Manager\" portion in his title. Yannis graduated from the USC Marshall School of Business with emphasis in Corporate Finance and Entrepreneurship.", 
+    "sort_weight": 10, 
+    "index_name": "yannis", 
+    "gravatar_email": "ypeyret@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "Yannis Peyret", 
+    "email": "", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 7, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Guillaume J. Charmes is a software engineer at dotCloud. He is working on Docker since day 1 in 2013. He is specialized in Golang, a language that he use since its very beginning. He likes to travel, he has been a software engineer in 5 countries around the world!. Contact Guillaume on twitter: @charme_g.", 
+    "sort_weight": 10, 
+    "index_name": "creack", 
+    "gravatar_email": "charmes.guillaume@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "Guillaume Charles", 
+    "email": "guillaume.charmes@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 8, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Andy Rothfusz is responsible for Developer Support on the dotCloud PaaS as well as for maintaining the Docker documentation. He's helped build and manage support teams at startups and large corporations, enabling engineers everywhere to use everything from graphics hardware to cloud services.", 
+    "sort_weight": 10, 
+    "index_name": "rufus", 
+    "gravatar_email": "andy@dotcloud.com", 
+    "show_as_team": true, 
+    "full_name": "Andy Rothfusz", 
+    "email": "andrew.rothfusz@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 9, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Ken Cochrane is a Senior member of the technical team at dotCloud, the commercial entity behind the Docker project. Ken has been involved with Docker from the outset, and is responsible for a number of key aspects of the project, including the Docker Index and Registry. He is a graduate of the University of Maine, co-founder of three companies (Zanbow, Camprate.com, and Popcorn Monsters), and has led development projects for LL Bean, CashStar, Fairchild Semiconductor, and Wright Express. Ken has broad-based experience designing and implementing database backed web applications, is a prolific author and github contributor, and has hands on experience with Chef, Puppet and OpenStack.", 
+    "sort_weight": 10, 
+    "index_name": "kencochrane", 
+    "gravatar_email": "kencochrane@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "Ken Cochrane", 
+    "email": "ken.cochrane@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 10, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "As dotCloud\u2019s first engineering hire, Sam was part of the tiny team that shipped our first private beta in 2010. Since then, he has been instrumental in scaling the platform to tens of millions of unique visitors for tens of thousands of developers across the world, leaving his mark on every major feature and component along the way. Today, as dotCloud\u2019s first director of engineering, he manages our fast-growing engineering team, which is another way to say he sits in meetings so that other engineers don\u2019t have to. When not sitting in a meeting, he maintains several popular open-source projects, including Hipache and Cirruxcache and other projects also ending in \u201c-ache\u201d. In a previous life, Sam supported Fortune 500s at Akamai, built the web infrastructure at several startups, and wrote software for self-driving cars in a research lab at INRIA.", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "sam.alba@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "Sam Alba", 
+    "email": "samalba@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 11, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "J\u00e9r\u00f4me is a senior engineer at dotCloud, where he rotates between Ops, Support and Evangelist duties and has earned the nickname of \u201cmaster Yoda\u201d. In a previous life he built and operated large scale Xen hosting back when EC2 was just the name of a plane, supervised the deployment of fiber interconnects through the French subway, built a specialized GIS to visualize fiber infrastructure, specialized in commando deployments of large-scale video streaming systems in bandwidth-constrained environments such as conference centers, and various other feats of technical wizardry. When he's annoyed, he threatens to replace things with a very small shell script. His left hand cares for the servers powering the dotCloud PAAS, while his right hand builds cool hacks around Docker. ", 
+    "sort_weight": 10, 
+    "index_name": "jpetazzo", 
+    "gravatar_email": "jerome.petazzoni@dotcloud.com", 
+    "show_as_team": true, 
+    "full_name": "J\u00e9r\u00f4me Petazoni", 
+    "email": "", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 12, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "bio", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "solomon@dotcloud.com", 
+    "show_as_team": true, 
+    "full_name": "Solomon Hykes", 
+    "email": "solomon@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 13, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Talented, innovative, and hands-on Software Infrastructure and Quality Assurance Director with over 10 years of experience specialising in Continuous Integration / Delivery & Automation Design / Implementation.\r\n\r\nI just recently joined the talented folks at dotCloud to help propel Docker in to the stratosphere.\r\n\r\nPrior to dotCloud, I worked at mobile banking innovator ClairMail, Inc for 7 years which grew from a 10-person start-up to successful acquisition from Monitise, a publicly traded company based in Europe.", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "nick@stinemates.org", 
+    "show_as_team": true, 
+    "full_name": "Nick Stinemates", 
+    "email": "nick@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 14, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Daniel Mizyrycki is a software testing and automation engineer at\r\ndotCloud. He believes in opensource being a Debian maintainer, pythonista and founder of the first Argentine Linux user group (BALUG) back in 1993. His passion for systems and software development led him to work as a consultant in companies like Amazon in the US, Bovespa in Brazil and Intergram in Argentina. When not coding, he enjoys running, hangliding and dancing.", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "mzdaniel@glidelink.net", 
+    "show_as_team": true, 
+    "full_name": "Daniel Mizyrycki", 
+    "email": "mzdaniel@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 15, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "joffrey", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "f.joffrey@gmail.com", 
+    "show_as_team": false, 
+    "full_name": "Joffrey", 
+    "email": "joffrey@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 16, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Julien Barbier", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "", 
+    "show_as_team": false, 
+    "full_name": "Julien Barbier", 
+    "email": "", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 1, 
+  "model": "base.newsitem", 
+  "fields": {
+    "show": true, 
+    "text": "Today we've released Docker version 0.6. It comes with an Events API, build and registry improvements, expert mode, security updates and more.", 
+    "author": 1, 
+    "creation_date": "2013-08-24T00:39:01.030Z", 
+    "link": "http://blog.docker.io/2013/08/websockets-dockerfile-upgrade-better-registry-support-expert-mode-and-more/", 
+    "title": "Docker 0.6 released!", 
+    "publication_date": "2013-08-23"
+  }
+},
+{
+  "pk": 2, 
+  "model": "base.newsitem", 
+  "fields": {
+    "show": true, 
+    "text": "This morning we changed our Twitter handle from getdocker to docker on twitter. So please tweet @docker now!", 
+    "author": 1, 
+    "creation_date": "2013-08-24T00:39:01.030Z", 
+    "link": "", 
+    "title": "now @docker on Twitter", 
+    "publication_date": "2013-08-06"
+  }
+},
+{
+  "pk": 3, 
+  "model": "base.newsitem", 
+  "fields": {
+    "show": true, 
+    "text": "Open source veteran Ben Golub joins as CEO to drive the Docker vision forward. Read more:\r\n\r\n<a href=\"http://gigaom.com/2013/07/23/paas-pioneer-dotcloud-gets-new-ceo-in-industry-vet-ben-golub/\"><img src=\"/static/img/homepage/gigaom.png\" alt=\"gigaom\"></a>\r\n<a href=\"http://www.reuters.com/article/2013/07/23/ca-dotcloud-idUSnBw235523a+100+BSW20130723\"><img src=\"/static/img/homepage/reuters.png\" alt=\"reuters\"></a>\r\n<a href=\"http://finance.yahoo.com/news/dotcloud-appoints-ben-golub-chief-133000939.html\"><img src=\"/static/img/homepage/yahoo.png\" alt=\"yahoo finance\"></a>", 
+    "author": 12, 
+    "creation_date": "2013-08-24T00:39:01.030Z", 
+    "link": "", 
+    "title": "Ben Golub Joins as CEO", 
+    "publication_date": "2013-07-23"
+  }
+},
+{
+  "pk": 4, 
+  "model": "base.newsitem", 
+  "fields": {
+    "show": true, 
+    "text": "We've released version 0.5. Amongst other things, this release containes External Volumes, Advanced Networking and support for an Self Hosted Registry, ", 
+    "author": 1, 
+    "creation_date": "2013-08-24T00:56:23.707Z", 
+    "link": "http://blog.docker.io/2013/07/docker-0-5-0-external-volumes-advanced-networking-self-hosted-registry/", 
+    "title": "Docker 0.5 Released", 
+    "publication_date": "2013-07-18"
+  }
+},
+{
+  "pk": 5, 
+  "model": "base.newsitem", 
+  "fields": {
+    "show": false, 
+    "text": "Everyday the Docker community is building awesome tools and projects with and for Docker. We want to share some of these with you.", 
+    "author": 1, 
+    "creation_date": "2013-08-24T00:56:23.707Z", 
+    "link": "http://blog.docker.io/2013/07/docker-projects-from-the-docker-community/", 
+    "title": "Featuring awesome projects", 
+    "publication_date": "2013-07-11"
+  }
+},
+{
+  "pk": 6, 
+  "model": "base.newsitem", 
+  "fields": {
+    "show": true, 
+    "text": "By joining the foundation, we are excited to support the amazing open source contributions that have come before us, and support those yet to come! ", 
+    "author": 1, 
+    "creation_date": "2013-08-24T00:56:23.707Z", 
+    "link": "http://blog.docker.io/2013/06/dotcloud-and-docker-join-the-linux-foundation/", 
+    "title": "dotCloud and Docker join the Linux Foundation", 
+    "publication_date": "2013-06-25"
+  }
+},
+{
+  "pk": 7, 
+  "model": "base.newsitem", 
+  "fields": {
+    "show": false, 
+    "text": "Sam Alba presents an article about the integration of Docker in OpenStack's cloud computing platform: NOVA. This integration allows users of OpenStack to seamlessly create Docker containers from the interface they are already using. ", 
+    "author": 1, 
+    "creation_date": "2013-08-24T00:56:23.707Z", 
+    "link": "http://blog.docker.io/2013/06/openstack-docker-manage-linux-containers-with-nova/", 
+    "title": "Docker in Openstack", 
+    "publication_date": "2013-06-06"
+  }
+},
+{
+  "pk": 1, 
+  "model": "base.event", 
+  "fields": {
+    "text": "We'd like you to join us for the first Docker Meetup in Boston. We'll be going over Docker basics in order to familiarize those new to the software, as well as exploring how people are utilizing Docker in their development and production environments. Ken Cochrane, a site reliability engineer at dotCloud, will be giving a Docker 101 walk-through. ", 
+    "date_and_time": "2013-09-25T02:00:00Z", 
+    "link": "http://www.meetup.com/Docker-Boston/events/133343702/", 
+    "location": "Brightcove Office, Boston", 
+    "title": "Docker Meetup in Boston"
+  }
+},
+{
+  "pk": 2, 
+  "model": "base.event", 
+  "fields": {
+    "text": "Join us for the first Docker Meetup in London. Make sure to check back for more informations about the talks we'll have on that day.", 
+    "date_and_time": "2013-09-06T02:00:00Z", 
+    "link": "http://www.meetup.com/Docker-London/events/132541952/", 
+    "location": "London - Google campus", 
+    "title": "Docker London Meetup"
+  }
+},
+{
+  "pk": 3, 
+  "model": "base.event", 
+  "fields": {
+    "text": "Block your calendar for the next Hackday at Docker HQ in San Francisco.", 
+    "date_and_time": "2013-10-01T20:00:00Z", 
+    "link": "http://www.meetup.com/Docker-meetups/events/136193992/", 
+    "location": "Docker HQ, San Francisco", 
+    "title": "Docker hackday #7"
+  }
+},
+{
+  "pk": 4, 
+  "model": "base.event", 
+  "fields": {
+    "text": "<a href=\"https://twitter.com/golubbe\" target=\"_blank\">Ben Golub</a>, \r\n<a href=\"https://twitter.com/solomonstre\" target=\"_blank\">Solomon Hykes</a> and \r\n<a href=\"https://twitter.com/KenCochrane\" target=\"_blank\">Ken Cochrane</a> \r\nwill be attending the next Boston OpenStack Meetup to talk about **Application Deployment on Openstack Using Containers and Docker**", 
+    "date_and_time": "2013-08-15T01:57:52Z", 
+    "link": "http://www.meetup.com/Openstack-Boston/events/131949152/", 
+    "location": "Microsoft NERD Center, Boston", 
+    "title": "Boston OpenStack Meetup"
+  }
+},
+{
+  "pk": 5, 
+  "model": "base.event", 
+  "fields": {
+    "text": "<a href=\"https://twitter.com/adr\" target=\"_blank\">John Fink</a> will talk about **<a href=\"http://docker.io\">docker</a>, a lightweight virtual machine system implemented as a wrapper around Linux containers** ", 
+    "date_and_time": "2013-08-15T01:57:52Z", 
+    "link": "http://codercamp.eventbrite.com/", 
+    "location": "Hamilton, Canada", 
+    "title": "CoderCamp13"
+  }
+},
+{
+  "pk": 6, 
+  "model": "base.event", 
+  "fields": {
+    "text": "Join us for the first Docker Meetup in NYC", 
+    "date_and_time": "2013-08-22T01:57:52Z", 
+    "link": "http://www.meetup.com/Docker-meetups/events/131005192/", 
+    "location": "New York", 
+    "title": "New York Docker"
+  }
+},
+{
+  "pk": 7, 
+  "model": "base.event", 
+  "fields": {
+    "text": "Our hackday #6 was a success, with over 60 participants and, amongst others, great talks about how how people are using it in **EBay**, **Mailgun (Rackspace)** and **CloudFlare**.\r\n    <span class=\"read-more disabled\"><a href=\"/live/\">watch sessions -></a></span>\r\n\r\n<img src=\"/static/img/homepage/ebay.png\" title=\"logo's of EBay, Mailgun and CloudFlare\">\r\n<img src=\"/static/img/homepage/mailgun.png\" title=\"logo's of EBay, Mailgun and CloudFlare\">\r\n<img src=\"/static/img/homepage/cloudflare.png\" title=\"logo's of EBay, Mailgun and CloudFlare\">\r\n\r\n<a href=\"/live\"><img src=\"https://farm4.staticflickr.com/3763/9409768665_966d0c08d9.jpg\" width=\"500\" height=\"375\" alt=\"Docker Hck Day #6\"></a>", 
+    "date_and_time": "2013-07-30T20:00:00Z", 
+    "link": "", 
+    "location": "Docker HQ, San Francisco", 
+    "title": "Docker Hackday #6"
+  }
+}
+]

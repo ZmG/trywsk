@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Collect files
+python manage.py collectstatic --noinput --settings=settings.dotcloud
+
+# migrate docker tutorial app
+python manage.py migrate docker_tutorial --settings=settings.dotcloud
+
+# Create your local database (is sqlite by default)
+./manage.py syncdb  --settings=settings.dotcloud
+
+# Migrations
+./manage.py migrate  --settings=settings.dotcloud

@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load navactive %}{% load markdown_deux_tags %}
+
+
+{% block title %}
+{% endblock title %}
+
+
+{% block page_js %}
+<script type='text/javascript'>
+$('document').ready(function() {
+    addAnchors('box-anchors');
+
+    $('#chooser-blocks a').hover(function() {
+        $('#description').html($(this).data("description"));
+    });
+})
+</script>
+{% endblock page_js %}
+
+
+
+{% block content %}
+
+<div class="container">
+<div class="row" >
+    <div class="span12 text-center">
+        <div class="copy-headline">
+            {% markdown %}{% block copy_headline %}
+                <h1>Placeholder for content</h1>
+            {% endblock %}{% endmarkdown %}
+        </div>
+    </div>
+</div>
+<div class="row" >
+    <div class="span12 paper">
+        <div class="span3">
+            {% include 'community/_menu.html' %}
+        </div>
+
+        <div id="" class="span8 ">
+
+            {% markdown %}{% block copy_introduction %}
+                <h1>Placeholder for content</h1>
+            {% endblock %}{% endmarkdown %}
+
+            {# This is where the table of contents will show up#}
+            <ul id="box-anchors" class="table-of-contents">
+            </ul>
+
+            {% markdown %}{% block copy_1 %}
+                <h1>Placeholder for content</h1>
+            {% endblock %}{% endmarkdown %}
+
+            {% markdown %}{% block copy_2 %}
+                <h1>Placeholder for content</h1>
+            {% endblock %}{% endmarkdown %}
+        </div>
+    </div>
+</div>
+</div>
+
+{% endblock %}

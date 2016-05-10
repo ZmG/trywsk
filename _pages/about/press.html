@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% load navactive %}{% load markdown_deux_tags %}{% load gravatar %}
+{% block page_js %}{{ block.super }}
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+
+<div class="row" >
+    <div class="span12 text-center">
+        <div class="copy-headline">
+            {% markdown %}{% block copy_headline %}
+                <h1>Placeholder for content</h1>
+            {% endblock %}{% endmarkdown %}
+        </div>
+    </div>
+</div>
+
+<div class="row" >
+    <div class="span12 paper">
+    <div class="span3">
+        {% include 'about/_menu.html' %}
+
+    </div>
+    <div id="" class="span8 main-copy">
+        {% markdown %}{% block copy_introduction %}
+        {% endblock %}{% endmarkdown %}
+        <ul>
+        {% for press_item in press_items %}
+
+            <li><h4>{{ press_item.publication_date }} • {{ press_item.title }}</h4>
+            {% if press_item.link %}
+                {{ press_item.text|add:'<span class="read-more"><a href="'|add:press_item.link|add:'"> Read more -></a></span>'|markdown }}
+            {% else %}
+                {{ press_item.text|markdown }}
+            {% endif %}
+
+
+            {% for image in press_item.images.all %}
+                <a href="{{press_item.link}}" target="_blank">
+                <img style="margin:15px;" src="https://s3.amazonaws.com/www.docker.io-media/{{image.image}}" alt="{{image.alt}}"></a>
+            {% endfor %}
+
+            </li>
+
+        {% endfor %}
+        </ul>
+
+        <h2>Blogposts on Docker</h2>
+
+        <ul>
+        {% for blog_item in blog_items %}
+
+                {% if blog_item.link %}
+                    <li><a href="{{blog_item.link}}">{{ blog_item.title }} - {{ blog_item.publication_date }}</a></li>
+                {% endif %}
+
+        {% endfor %}
+        </ul>
+    </div>
+    </div> <!-- end span12 -->
+
+</div>
+
+
+</div>
+
+{% endblock %}

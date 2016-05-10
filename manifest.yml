@@ -1,0 +1,14 @@
+---
+applications:
+- name: learnwhisk
+  memory: 256M 
+  instances: 1
+  host: learnwhisk
+  domain: mybluemix.net
+  path: .
+  command: "python ./manage.py syncdb --all --noinput && python ./manage.py migrate --fake && python ./manage.py collectstatic --noinput --settings=settings.bluemix && python ./manage.py runserver $VCAP_APP_HOST:$PORT"
+  buildpack: https://github.com/cloudfoundry/cf-buildpack-python
+  services:
+    - trywskDB
+  env:
+    SECRET_KEY : yabbadabbadoo

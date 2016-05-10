@@ -1,0 +1,1154 @@
+[
+{
+  "pk": 1, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Yandex", 
+    "description": ""
+  }
+},
+{
+  "pk": 2, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Cocaine", 
+    "description": ""
+  }
+},
+{
+  "pk": 3, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Docker", 
+    "description": ""
+  }
+},
+{
+  "pk": 4, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "CoreOS", 
+    "description": ""
+  }
+},
+{
+  "pk": 5, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "DigitalOcean", 
+    "description": ""
+  }
+},
+{
+  "pk": 6, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Apcera", 
+    "description": ""
+  }
+},
+{
+  "pk": 7, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Mesos", 
+    "description": ""
+  }
+},
+{
+  "pk": 8, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Mesosphere", 
+    "description": ""
+  }
+},
+{
+  "pk": 9, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Marathon", 
+    "description": ""
+  }
+},
+{
+  "pk": 10, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Chronos", 
+    "description": ""
+  }
+},
+{
+  "pk": 11, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Dokku", 
+    "description": ""
+  }
+},
+{
+  "pk": 12, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Flynn", 
+    "description": ""
+  }
+},
+{
+  "pk": 13, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Deis", 
+    "description": ""
+  }
+},
+{
+  "pk": 14, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Rackspace cloud", 
+    "description": ""
+  }
+},
+{
+  "pk": 15, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "EC2", 
+    "description": ""
+  }
+},
+{
+  "pk": 16, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Red Hat", 
+    "description": ""
+  }
+},
+{
+  "pk": 17, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "PaaS", 
+    "description": ""
+  }
+},
+{
+  "pk": 18, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "OpenShift", 
+    "description": ""
+  }
+},
+{
+  "pk": 19, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Fedora", 
+    "description": ""
+  }
+},
+{
+  "pk": 20, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "open source", 
+    "description": ""
+  }
+},
+{
+  "pk": 21, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "hypervisor", 
+    "description": ""
+  }
+},
+{
+  "pk": 22, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "linux", 
+    "description": ""
+  }
+},
+{
+  "pk": 23, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "lxc", 
+    "description": ""
+  }
+},
+{
+  "pk": 24, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "dotCloud", 
+    "description": ""
+  }
+},
+{
+  "pk": 25, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "containers", 
+    "description": ""
+  }
+},
+{
+  "pk": 26, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "cgroups", 
+    "description": ""
+  }
+},
+{
+  "pk": 27, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Salt", 
+    "description": ""
+  }
+},
+{
+  "pk": 28, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "DevOps", 
+    "description": ""
+  }
+},
+{
+  "pk": 29, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "SaltStack", 
+    "description": ""
+  }
+},
+{
+  "pk": 30, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Oscon", 
+    "description": ""
+  }
+},
+{
+  "pk": 31, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Gluster", 
+    "description": ""
+  }
+},
+{
+  "pk": 32, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Ben Golub", 
+    "description": ""
+  }
+},
+{
+  "pk": 33, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Illumina", 
+    "description": ""
+  }
+},
+{
+  "pk": 34, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Native App Engine", 
+    "description": ""
+  }
+},
+{
+  "pk": 35, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Docker services", 
+    "description": ""
+  }
+},
+{
+  "pk": 36, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "supervisor deamon", 
+    "description": ""
+  }
+},
+{
+  "pk": 37, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "wordpress", 
+    "description": ""
+  }
+},
+{
+  "pk": 38, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Chef", 
+    "description": ""
+  }
+},
+{
+  "pk": 39, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Gists", 
+    "description": ""
+  }
+},
+{
+  "pk": 40, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Isolation", 
+    "description": ""
+  }
+},
+{
+  "pk": 41, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "CodeCube", 
+    "description": ""
+  }
+},
+{
+  "pk": 42, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Mailgun", 
+    "description": ""
+  }
+},
+{
+  "pk": 43, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "orchestration", 
+    "description": ""
+  }
+},
+{
+  "pk": 44, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Shipper", 
+    "description": ""
+  }
+},
+{
+  "pk": 45, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "MySQL", 
+    "description": ""
+  }
+},
+{
+  "pk": 46, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Server", 
+    "description": ""
+  }
+},
+{
+  "pk": 47, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Dockerfile", 
+    "description": ""
+  }
+},
+{
+  "pk": 48, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "ipv6", 
+    "description": ""
+  }
+},
+{
+  "pk": 49, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "ipv4", 
+    "description": ""
+  }
+},
+{
+  "pk": 50, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "ipv4", 
+    "description": ""
+  }
+},
+{
+  "pk": 51, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "networking", 
+    "description": ""
+  }
+},
+{
+  "pk": 52, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "virtualization", 
+    "description": ""
+  }
+},
+{
+  "pk": 54, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "MongoDB", 
+    "description": ""
+  }
+},
+{
+  "pk": 55, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "AJAX", 
+    "description": ""
+  }
+},
+{
+  "pk": 56, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "RuPy", 
+    "description": ""
+  }
+},
+{
+  "pk": 57, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "LXC", 
+    "description": ""
+  }
+},
+{
+  "pk": 58, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Ubuntu", 
+    "description": ""
+  }
+},
+{
+  "pk": 59, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Glassfish4", 
+    "description": ""
+  }
+},
+{
+  "pk": 60, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "OpenStack", 
+    "description": ""
+  }
+},
+{
+  "pk": 61, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "AUFS", 
+    "description": ""
+  }
+},
+{
+  "pk": 62, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Oracle JDK", 
+    "description": ""
+  }
+},
+{
+  "pk": 63, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Java", 
+    "description": ""
+  }
+},
+{
+  "pk": 64, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "JavaEE", 
+    "description": ""
+  }
+},
+{
+  "pk": 66, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Permalink", 
+    "description": ""
+  }
+},
+{
+  "pk": 67, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Heroku", 
+    "description": ""
+  }
+},
+{
+  "pk": 68, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Puppet", 
+    "description": ""
+  }
+},
+{
+  "pk": 69, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Puppet", 
+    "description": ""
+  }
+},
+{
+  "pk": 70, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "cookbooks", 
+    "description": ""
+  }
+},
+{
+  "pk": 71, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "WildFly", 
+    "description": ""
+  }
+},
+{
+  "pk": 72, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "JBoss", 
+    "description": ""
+  }
+},
+{
+  "pk": 73, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "IP", 
+    "description": ""
+  }
+},
+{
+  "pk": 74, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "NAT", 
+    "description": ""
+  }
+},
+{
+  "pk": 75, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Buildbot", 
+    "description": ""
+  }
+},
+{
+  "pk": 76, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "kernel", 
+    "description": ""
+  }
+},
+{
+  "pk": 77, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Debian", 
+    "description": ""
+  }
+},
+{
+  "pk": 78, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Image", 
+    "description": ""
+  }
+},
+{
+  "pk": 79, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "daemon", 
+    "description": ""
+  }
+},
+{
+  "pk": 80, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "ENTRYPOINT", 
+    "description": ""
+  }
+},
+{
+  "pk": 81, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "JSON", 
+    "description": ""
+  }
+},
+{
+  "pk": 82, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "GitHub", 
+    "description": ""
+  }
+},
+{
+  "pk": 83, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "memory", 
+    "description": ""
+  }
+},
+{
+  "pk": 84, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Gears", 
+    "description": ""
+  }
+},
+{
+  "pk": 85, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "SELinux", 
+    "description": ""
+  }
+},
+{
+  "pk": 86, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Jenkins", 
+    "description": ""
+  }
+},
+{
+  "pk": 87, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Vagrant", 
+    "description": ""
+  }
+},
+{
+  "pk": 88, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "virtualbox", 
+    "description": ""
+  }
+},
+{
+  "pk": 89, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Vagrantfile", 
+    "description": ""
+  }
+},
+{
+  "pk": 90, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "git", 
+    "description": ""
+  }
+},
+{
+  "pk": 91, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Perl", 
+    "description": ""
+  }
+},
+{
+  "pk": 92, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Python", 
+    "description": ""
+  }
+},
+{
+  "pk": 93, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Machine learning", 
+    "description": ""
+  }
+},
+{
+  "pk": 94, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Jerome Petazzoni", 
+    "description": ""
+  }
+},
+{
+  "pk": 95, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Nick Stinemates", 
+    "description": ""
+  }
+},
+{
+  "pk": 96, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Sys Ops", 
+    "description": ""
+  }
+},
+{
+  "pk": 97, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "QA engineers", 
+    "description": ""
+  }
+},
+{
+  "pk": 98, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Registry", 
+    "description": ""
+  }
+},
+{
+  "pk": 99, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Docker Index", 
+    "description": ""
+  }
+},
+{
+  "pk": 100, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "cluster", 
+    "description": ""
+  }
+},
+{
+  "pk": 101, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "LAMP", 
+    "description": ""
+  }
+},
+{
+  "pk": 102, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "i386", 
+    "description": ""
+  }
+},
+{
+  "pk": 103, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Workloads", 
+    "description": ""
+  }
+},
+{
+  "pk": 104, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "drupal", 
+    "description": ""
+  }
+},
+{
+  "pk": 105, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Apache", 
+    "description": ""
+  }
+},
+{
+  "pk": 106, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "centOS", 
+    "description": ""
+  }
+},
+{
+  "pk": 107, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Rackspace", 
+    "description": ""
+  }
+},
+{
+  "pk": 108, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "SaaS", 
+    "description": ""
+  }
+},
+{
+  "pk": 109, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Memcached", 
+    "description": ""
+  }
+},
+{
+  "pk": 110, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "openSUSE", 
+    "description": ""
+  }
+},
+{
+  "pk": 111, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Redis", 
+    "description": ""
+  }
+},
+{
+  "pk": 112, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "BitTorrent", 
+    "description": ""
+  }
+},
+{
+  "pk": 113, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "infrastructure", 
+    "description": ""
+  }
+},
+{
+  "pk": 114, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "quality", 
+    "description": ""
+  }
+},
+{
+  "pk": 115, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "namespace", 
+    "description": ""
+  }
+},
+{
+  "pk": 116, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Nova driver", 
+    "description": ""
+  }
+},
+{
+  "pk": 117, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "RHEL", 
+    "description": ""
+  }
+},
+{
+  "pk": 118, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Solum project", 
+    "description": ""
+  }
+},
+{
+  "pk": 119, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "OpenStack Summit", 
+    "description": ""
+  }
+},
+{
+  "pk": 120, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Heat", 
+    "description": ""
+  }
+},
+{
+  "pk": 121, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Netflix OSS", 
+    "description": ""
+  }
+},
+{
+  "pk": 122, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Nirmata", 
+    "description": ""
+  }
+},
+{
+  "pk": 123, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Dependencies", 
+    "description": ""
+  }
+},
+{
+  "pk": 124, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "IP address", 
+    "description": ""
+  }
+},
+{
+  "pk": 125, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Hostname", 
+    "description": ""
+  }
+},
+{
+  "pk": 126, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Continuous Delivery", 
+    "description": ""
+  }
+},
+{
+  "pk": 127, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Dockerize", 
+    "description": ""
+  }
+},
+{
+  "pk": 128, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Virgo", 
+    "description": ""
+  }
+},
+{
+  "pk": 129, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "Continuous Deployment", 
+    "description": ""
+  }
+},
+{
+  "pk": 130, 
+  "model": "base.tag", 
+  "fields": {
+    "added_date": "2013-10-24", 
+    "name": "API", 
+    "description": ""
+  }
+}
+]

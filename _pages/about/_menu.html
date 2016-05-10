@@ -1,0 +1,10 @@
+{% load navactive %}
+
+<div class="pagemenu" >
+    <ul class="unstyled">
+        <li class="{% navactive request 'news' %}"><a href="{% url 'news' %}">News</a></li>
+        <li class="{% navactive request 'press'%}"><a href="{% url 'press' %}">Press</a></li>
+        <li class="{% navactive request 'team' %}"><a href="{% url 'team' %}">Team</a></li>
+        <li class="{% navactive request 'jobs' %}"><a href="{% url 'jobs' %}">Jobs</a></li>
+    </ul>
+</div>

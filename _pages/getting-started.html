@@ -1,0 +1,46 @@
+{% extends 'base.html' %}{% load markdown_deux_tags %}
+
+{% block page_js %}
+<script type='text/javascript'>
+
+$(document).ready( function() {
+{#    addAnchors('box-anchors');#}
+});
+
+</script>
+{% endblock page_js %}
+
+{% block content %}
+
+<div class="container">
+<div class="row"  >
+    <div class="span12 text-center" style="margin-top: 35px;">
+        {% markdown %}{% block copy_introduction %}
+        {% endblock %}{% endmarkdown %}
+
+        {# This is where the table of contents will show up#}
+    </div>
+</div>
+<div class="row" >
+    <div class="span12 paper">
+        <div id="" class="span12">
+           
+            <ul id="box-anchors" class="table-of-contents">
+            </ul>
+
+            {% markdown %}{% block copy_interactive_tutorial %}
+            {% endblock %}{% endmarkdown %}
+           
+            {% markdown %}{% block dockerfile_tutorial %}
+            {% endblock %}{% endmarkdown %}
+
+          <!--   {% markdown %}{% block copy_user_guides %}
+            {% endblock %}{% endmarkdown %} -->
+
+        </div>
+    </div>
+</div>
+
+</div>
+
+{% endblock %}

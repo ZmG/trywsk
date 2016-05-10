@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load navactive %}{% load markdown_deux_tags %}
+{% block page_js %}{% endblock %}
+
+{% block title %}{% endblock title %}
+
+
+{% block content %}
+
+
+<div class="container">
+<div class="row" >
+    <div class="span12 text-center">
+        <div class="copy-headline">
+            {% markdown %}{% block copy_headline %}
+                # Placeholder for content #
+            {% endblock %}{% endmarkdown %}
+        </div>
+    </div>
+</div>
+
+<div class="row" >
+    <div class="span2 test debug">
+        1
+
+    </div>
+    <div id="" class="span8 offset2">
+        {% markdown %}{% block copy_introduction %}
+        {% endblock %}{% endmarkdown %}
+    </div>
+
+
+{#        <div class="span1 test">2</div>#}
+{#        <div class="span1 test">3</div>#}
+{#        <div class="span1 test">4</div>#}
+{#        <div class="span1 test">5</div>#}
+{#        <div class="span1 test">6</div>#}
+{#        <div class="span1 test">7</div>#}
+{#        <div class="span1 test">8</div>#}
+{#        <div class="span1 test">9</div>#}
+{#        <div class="span1 test">10</div>#}
+{#        <div class="span1 test">11</div>#}
+{#        <div class="span1 test">12</div>#}
+    </div>
+
+
+</div>
+
+
+{% endblock %}

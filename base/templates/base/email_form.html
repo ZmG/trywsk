@@ -1,0 +1,15 @@
+{% extends 'base_small.html' %}
+
+{% block copy_main %}
+
+<h2>Sign up for Docker Weekly</h2>
+<p>Docker weekly is a newsletter which we send out every week. It contains the latest news, updates, information on
+releases and other exciting stuff. Sign up!</p>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit">
+    </form>
+
+{% endblock %}

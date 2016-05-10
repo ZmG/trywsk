@@ -1,0 +1,1251 @@
+[
+{
+  "pk": 1, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on The register", 
+    "text": "Havana see your bare metal: New OpenStack v8 clinches containerization", 
+    "tags": [], 
+    "link": "http://www.theregister.co.uk/2013/10/18/openstack_havana/", 
+    "images": [
+      1
+    ], 
+    "publication_date": "2013-10-17"
+  }
+},
+{
+  "pk": 2, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on siliconANGLE", 
+    "text": "Yandex, Russia's Biggest Search Engine, Offers Cocaine to Deveopers", 
+    "tags": [
+      1, 
+      2
+    ], 
+    "link": "http://siliconangle.com/blog/2013/10/17/yandex-russias-biggest-search-engine-offers-cocaine-to-developers/", 
+    "images": [
+      2
+    ], 
+    "publication_date": "2013-10-17"
+  }
+},
+{
+  "pk": 3, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on The register", 
+    "text": "Free Cocaine giveaway from Russian search engine Yandex", 
+    "tags": [
+      1, 
+      2
+    ], 
+    "link": "http://www.theregister.co.uk/2013/10/17/free_cocaine_giveaway_from_russian_search_engine_yandex/", 
+    "images": [
+      1
+    ], 
+    "publication_date": "2013-10-18"
+  }
+},
+{
+  "pk": 4, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on Techcrunch", 
+    "text": "Search Engine Giant Yandex Launches Cocaine, A Cloud Service to Compete With Google App Engine", 
+    "tags": [], 
+    "link": "http://techcrunch.com/2013/10/16/search-engine-giant-yandex-launches-cocaine-a-cloud-service-to-compete-with-google-app-engine/", 
+    "images": [
+      3
+    ], 
+    "publication_date": "2013-10-16"
+  }
+},
+{
+  "pk": 5, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on Techcrunch", 
+    "text": "The Cloud Washers Will Loose ", 
+    "tags": [
+      3, 
+      4, 
+      5, 
+      6
+    ], 
+    "link": "http://techcrunch.com/2013/10/15/the-cloud-washers-will-lose/", 
+    "images": [
+      3
+    ], 
+    "publication_date": "2013-10-15"
+  }
+},
+{
+  "pk": 6, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on infoQ", 
+    "text": "Securing Docker and Containers", 
+    "tags": [], 
+    "link": "http://www.infoq.com/news/2013/09/docker-container-security", 
+    "images": [
+      4
+    ], 
+    "publication_date": "2013-09-27"
+  }
+},
+{
+  "pk": 7, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on Techcrunch", 
+    "text": "Mesosphere Adds Docker Support To Its Mesos-Based Operating System For The Data Center", 
+    "tags": [
+      7, 
+      8, 
+      9, 
+      10
+    ], 
+    "link": "http://techcrunch.com/2013/09/26/mesosphere-adds-docker-support-to-its-mesos-based-operating-system-for-the-data-center/", 
+    "images": [
+      3
+    ], 
+    "publication_date": "2013-09-26"
+  }
+},
+{
+  "pk": 8, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on infoQ", 
+    "text": "Docker Using Linux Containers to Support Portable Application Deployment ", 
+    "tags": [
+      11, 
+      12, 
+      13, 
+      14, 
+      15
+    ], 
+    "link": "http://www.infoq.com/articles/docker-containers", 
+    "images": [
+      4
+    ], 
+    "publication_date": "2013-09-26"
+  }
+},
+{
+  "pk": 9, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on siliconANGLE", 
+    "text": "Red Hat Eyeing 'Open Hybrid Cloud' with New JBoss PaaS Lineup", 
+    "tags": [
+      16, 
+      17, 
+      18, 
+      19
+    ], 
+    "link": "http://siliconangle.com/blog/2013/09/25/red-hat-eyeing-open-hybrid-cloud-with-new-jboss-paas-lineup/", 
+    "images": [
+      2
+    ], 
+    "publication_date": "2013-09-25"
+  }
+},
+{
+  "pk": 10, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on Sys-Con", 
+    "text": "Red Hat Takes a Fancy to dotCloud & Docker ", 
+    "tags": [
+      16, 
+      17, 
+      18, 
+      19
+    ], 
+    "link": "http://www.docker.io/static/documents/press/Sys-Con_Media_Client_Server_Newsletter_dotCloud.pdf", 
+    "images": [
+      5
+    ], 
+    "publication_date": "2013-09-23"
+  }
+},
+{
+  "pk": 11, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on eWeek", 
+    "text": "Red Hat Expands Virtualization Options With Open-Source Docker", 
+    "tags": [
+      16, 
+      17, 
+      18, 
+      19
+    ], 
+    "link": "http://www.eweek.com/developer/red-hat-expands-virtualization-options-with-open-source-docker.html/", 
+    "images": [
+      6
+    ], 
+    "publication_date": "2013-09-20"
+  }
+},
+{
+  "pk": 12, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on Techcrunch", 
+    "text": "DotCloud Pivots And Wins Big With Docker, The Cloud Service Now Part Of Red Hat OpenShift", 
+    "tags": [
+      16, 
+      17, 
+      18, 
+      19
+    ], 
+    "link": "http://techcrunch.com/2013/09/19/dotcloud-pivots-and-wins-big-with-docker-the-cloud-service-now-part-of-red-hat-openshift/", 
+    "images": [
+      3
+    ], 
+    "publication_date": "2013-09-19"
+  }
+},
+{
+  "pk": 13, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on siliconANGLE", 
+    "text": "Red Hat Teams Up with dotCloud to Promote Open Hypervisor Alternative", 
+    "tags": [
+      16, 
+      17, 
+      18, 
+      19, 
+      20, 
+      21
+    ], 
+    "link": "http://siliconangle.com/blog/2013/09/19/red-hat-teams-up-with-dotcloud-to-promote-open-hyperviper-alternative/", 
+    "images": [
+      2
+    ], 
+    "publication_date": "2013-09-19"
+  }
+},
+{
+  "pk": 14, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on The register", 
+    "text": "Red Hat and dotCloud team up on time-saving Linux container tech", 
+    "tags": [
+      16, 
+      17, 
+      18, 
+      19
+    ], 
+    "link": "http://www.theregister.co.uk/2013/09/19/wtf_is_containerisation_and_why_are_red_hat_and_dotcloud_doing_it/", 
+    "images": [
+      1
+    ], 
+    "publication_date": "2013-09-19"
+  }
+},
+{
+  "pk": 15, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on Red Hat", 
+    "text": "Red Hat and dotCloud Collaborate on Docker to Bring Next Generation Linux Container Enhancements to OpenShift Platform-as-a-Service", 
+    "tags": [], 
+    "link": "http://www.redhat.com/about/news/press-archive/2013/9/red-hat-and-dotcloud-collaborate-on-docker-to-bring-next-generation-linux-container-enhancements-to-openshift", 
+    "images": [
+      7
+    ], 
+    "publication_date": "2013-09-19"
+  }
+},
+{
+  "pk": 16, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on Wired", 
+    "text": "The man who would built a computer the size of the entire internet", 
+    "tags": [
+      22, 
+      23, 
+      24, 
+      25
+    ], 
+    "link": "http://www.wired.com/wiredenterprise/2013/09/docker/", 
+    "images": [
+      8
+    ], 
+    "publication_date": "2013-09-09"
+  }
+},
+{
+  "pk": 17, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on Admin Magazine", 
+    "text": "Docker: Create portable containers that run in the cloud - or even on bare metal", 
+    "tags": [
+      3, 
+      20, 
+      22, 
+      23, 
+      24, 
+      25
+    ], 
+    "link": "http://www.admin-magazine.com/Archive/2013/16", 
+    "images": [
+      9
+    ], 
+    "publication_date": "2013-08-19"
+  }
+},
+{
+  "pk": 18, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on linux.com", 
+    "text": "Docker: A 'Shipping Container' for Linux Code", 
+    "tags": [
+      3, 
+      22, 
+      23, 
+      24, 
+      25, 
+      26
+    ], 
+    "link": "http://www.linux.com/news/enterprise/cloud-computing/731454-docker-a-shipping-container-for-linux-code/", 
+    "images": [
+      10
+    ], 
+    "publication_date": "2013-08-01"
+  }
+},
+{
+  "pk": 19, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on Techcrunch", 
+    "text": "The Matrix Of Hell And Two Open-Source Projects For The Emerging Agnostic Cloud ", 
+    "tags": [
+      27, 
+      28, 
+      29, 
+      30
+    ], 
+    "link": "http://techcrunch.com/2013/07/28/the-matrix-of-hell-and-two-open-source-projects-for-the-emerging-agnostic-cloud/", 
+    "images": [
+      3
+    ], 
+    "publication_date": "2013-07-28"
+  }
+},
+{
+  "pk": 20, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on GigaOM", 
+    "text": "PaaS pioner dotCloud gets new CEO in industry vet Ben Golub", 
+    "tags": [
+      17, 
+      31, 
+      32
+    ], 
+    "link": "http://gigaom.com/2013/07/23/paas-pioneer-dotcloud-gets-new-ceo-in-industry-vet-ben-golub/", 
+    "images": [
+      11
+    ], 
+    "publication_date": "2013-07-23"
+  }
+},
+{
+  "pk": 21, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 1, 
+    "title": "Docker on infoQ", 
+    "text": "Docker: Automated and Consistent Software Deployments", 
+    "tags": [
+      3, 
+      20, 
+      22, 
+      23, 
+      24, 
+      26, 
+      28
+    ], 
+    "link": "http://www.infoq.com/news/2013/03/Docker", 
+    "images": [
+      4
+    ], 
+    "publication_date": "2013-03-27"
+  }
+},
+{
+  "pk": 23, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "BaseSpace Blog: Introducing the Native App Engine", 
+    "text": "", 
+    "tags": [
+      33, 
+      34
+    ], 
+    "link": "http://blog.basespace.illumina.com/2013/10/21/introducing-the-native-app-engine/", 
+    "images": [], 
+    "publication_date": "2013-10-21"
+  }
+},
+{
+  "pk": 24, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Paul Czarkowski: Managing Docker Services With This One Easy Trick", 
+    "text": "", 
+    "tags": [
+      3, 
+      25, 
+      35, 
+      36, 
+      37
+    ], 
+    "link": "http://tech.paulcz.net/2013/10/managing-docker-services-with-this-one-easy-trick.html#/index", 
+    "images": [], 
+    "publication_date": "2013-10-20"
+  }
+},
+{
+  "pk": 25, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "RelateIQ: Why Docker? Why not Chef?", 
+    "text": "", 
+    "tags": [
+      3, 
+      38
+    ], 
+    "link": "http://blog.relateiq.com/why-docker-why-not-chef/", 
+    "images": [], 
+    "publication_date": "2013-10-17"
+  }
+},
+{
+  "pk": 26, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Harry Marr: CodeCube: Docker-powered Runnable Gists", 
+    "text": "", 
+    "tags": [
+      39, 
+      40, 
+      41
+    ], 
+    "link": "http://hmarr.com/2013/oct/16/codecube-runnable-gists/", 
+    "images": [], 
+    "publication_date": "2013-10-16"
+  }
+},
+{
+  "pk": 27, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Rackspace: How Mailgun Uses Docker and Contributes Back ", 
+    "text": "", 
+    "tags": [
+      25, 
+      42, 
+      43, 
+      44
+    ], 
+    "link": "http://www.rackspace.com/blog/how-mailgun-uses-docker-and-contributes-back/", 
+    "images": [], 
+    "publication_date": "2013-10-14"
+  }
+},
+{
+  "pk": 28, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Ijonas: Building a Docker-based MySQL Server ", 
+    "text": "", 
+    "tags": [
+      45, 
+      46, 
+      47
+    ], 
+    "link": "http://ijonas.com/devops-2/building-a-docker-based-mysql-server/", 
+    "images": [], 
+    "publication_date": "2013-10-14"
+  }
+},
+{
+  "pk": 29, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Zargony: IPv6 in Docker ", 
+    "text": "", 
+    "tags": [
+      3, 
+      48, 
+      50, 
+      51, 
+      52, 
+      23, 
+      25
+    ], 
+    "link": "http://zargony.com/2013/10/13/ipv6-in-docker-containers", 
+    "images": [], 
+    "publication_date": "2013-10-13"
+  }
+},
+{
+  "pk": 30, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Ijonas: A Docker Container folder structure that's flexible and scales", 
+    "text": "", 
+    "tags": [
+      45, 
+      46, 
+      47, 
+      54
+    ], 
+    "link": "http://ijonas.com/devops-2/a-docker-container-folder-structure-thats-flexible-and-scales/", 
+    "images": [], 
+    "publication_date": "2013-10-13"
+  }
+},
+{
+  "pk": 31, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "IbuildtheCloud: RuPy 2013: Stack A Plateform With Linux Containers", 
+    "text": "", 
+    "tags": [
+      23, 
+      55
+    ], 
+    "link": "http://ibuildthecloud.tumblr.com/post/63895248725/docker-is-lxcs-ajax", 
+    "images": [], 
+    "publication_date": "2013-10-13"
+  }
+},
+{
+  "pk": 32, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Tero Parviainen: RuPy 2013: Stack A Plateform With Linux Containers", 
+    "text": "", 
+    "tags": [
+      3, 
+      38, 
+      56, 
+      57, 
+      58
+    ], 
+    "link": "http://teropa.info/blog/2013/10/13/rupy-2013-stack-a-platform-with-linux-containers.html", 
+    "images": [], 
+    "publication_date": "2013-10-13"
+  }
+},
+{
+  "pk": 33, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Noah White: Docker + Glassfish4", 
+    "text": "", 
+    "tags": [
+      64, 
+      66, 
+      28, 
+      26, 
+      59, 
+      60, 
+      61, 
+      62, 
+      63
+    ], 
+    "link": "http://www.noahwhite.net/soc/2013/10/docker-glassfish4.html", 
+    "images": [], 
+    "publication_date": "2013-10-11"
+  }
+},
+{
+  "pk": 34, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Marek goldmann: The missing piece, Operating Systems for web scale Cloud Apps", 
+    "text": "", 
+    "tags": [
+      47, 
+      67, 
+      69, 
+      70
+    ], 
+    "link": "http://blog.hendrikvolkmer.de/2013/10/11/the-missing-piece-operating-systems-for-web-scale-cloud-apps/", 
+    "images": [], 
+    "publication_date": "2013-10-11"
+  }
+},
+{
+  "pk": 35, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Marek Goldmann: WildFly cluster using Docker on Fedora ", 
+    "text": "", 
+    "tags": [
+      3, 
+      19, 
+      71, 
+      72
+    ], 
+    "link": "http://goldmann.pl/blog/2013/10/07/wildfly-cluster-using-docker-on-fedora/", 
+    "images": [], 
+    "publication_date": "2013-10-07"
+  }
+},
+{
+  "pk": 36, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Ijonas: Building a MongoDB Cluster using Docker Containers", 
+    "text": "", 
+    "tags": [
+      3, 
+      5, 
+      47, 
+      54
+    ], 
+    "link": "http://ijonas.com/devops-2/building-a-mongodb-cluster-using-docker-containers/", 
+    "images": [], 
+    "publication_date": "2013-10-06"
+  }
+},
+{
+  "pk": 37, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Codeaholics.org: Giving Docker/LXC containers a routable IP address ", 
+    "text": "", 
+    "tags": [
+      3, 
+      57, 
+      73, 
+      74
+    ], 
+    "link": "http://blog.codeaholics.org/2013/giving-dockerlxc-containers-a-routable-ip-address/", 
+    "images": [], 
+    "publication_date": "2013-10-02"
+  }
+},
+{
+  "pk": 38, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "ITBusinessEdge: Red Hat Throws Support Behind Portable App Container", 
+    "text": "", 
+    "tags": [
+      16, 
+      17, 
+      18
+    ], 
+    "link": "http://www.itbusinessedge.com/blogs/it-unmasked/red-hat-throws-support-behind-portable-app-container.html", 
+    "images": [], 
+    "publication_date": "2013-09-30"
+  }
+},
+{
+  "pk": 39, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Buildbot: First Buildbot run with Docker - Sep 30, 2013", 
+    "text": "", 
+    "tags": [
+      57, 
+      61, 
+      75, 
+      76, 
+      77
+    ], 
+    "link": "http://buildbot.readthedocs.org/en/latest/tutorial/docker.html", 
+    "images": [], 
+    "publication_date": "2013-09-30"
+  }
+},
+{
+  "pk": 40, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Medium: Production Quality MongoDB Setup with Docker ", 
+    "text": "", 
+    "tags": [
+      47, 
+      54, 
+      78, 
+      79, 
+      80, 
+      81
+    ], 
+    "link": "https://medium.com/on-coding/65136a4a9d8", 
+    "images": [], 
+    "publication_date": "2013-09-29"
+  }
+},
+{
+  "pk": 41, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Devashish: Docker containers memory troubleshooting ", 
+    "text": "", 
+    "tags": [
+      3, 
+      22, 
+      25, 
+      82, 
+      83
+    ], 
+    "link": "http://devashish.co.in/2013/09/28/docker-containers-memory-troubleshooting/", 
+    "images": [], 
+    "publication_date": "2013-09-28"
+  }
+},
+{
+  "pk": 42, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Themiddlewareman: Docker + Red Hat OpenShift = The Tipping Point for Open PaaS", 
+    "text": "", 
+    "tags": [
+      3, 
+      16, 
+      17, 
+      18, 
+      19
+    ], 
+    "link": "http://www.themiddlewareman.org/2013/09/27/docker-red-hat-openshift-tiping-point-open-paas/", 
+    "images": [], 
+    "publication_date": "2013-09-27"
+  }
+},
+{
+  "pk": 43, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Mesosphere: Docker on Mesos", 
+    "text": "", 
+    "tags": [
+      3, 
+      7, 
+      8, 
+      9, 
+      10
+    ], 
+    "link": "http://mesosphere.io/2013/09/26/docker-on-mesos/", 
+    "images": [], 
+    "publication_date": "2013-09-26"
+  }
+},
+{
+  "pk": 44, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Marek Goldmann: Docker and Fedora", 
+    "text": "", 
+    "tags": [
+      3, 
+      72, 
+      78, 
+      19, 
+      22, 
+      23, 
+      24, 
+      25
+    ], 
+    "link": "http://goldmann.pl/blog/2013/09/25/docker-and-fedora/", 
+    "images": [], 
+    "publication_date": "2013-09-25"
+  }
+},
+{
+  "pk": 45, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Openshift: Technical Thoughts on OpenShift and Docker ", 
+    "text": "", 
+    "tags": [
+      3, 
+      16, 
+      18, 
+      22, 
+      84, 
+      85
+    ], 
+    "link": "https://www.openshift.com/blogs/technical-thoughts-on-openshift-and-docker", 
+    "images": [], 
+    "publication_date": "2013-09-25"
+  }
+},
+{
+  "pk": 46, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Blog How are you: Continuous delivery with Docker and Jenkins part 1 ", 
+    "text": "", 
+    "tags": [
+      3, 
+      86, 
+      87, 
+      88, 
+      89, 
+      90
+    ], 
+    "link": "http://blog.howareyou.com/post/62157486858/continuous-delivery-with-docker-and-jenkins-part-i", 
+    "images": [], 
+    "publication_date": "2013-09-24"
+  }
+},
+{
+  "pk": 47, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Three of coins: Flat Docker images", 
+    "text": "", 
+    "tags": [
+      47, 
+      57, 
+      61, 
+      66, 
+      91
+    ], 
+    "link": "http://3ofcoins.net/2013/09/22/flat-docker-images/", 
+    "images": [], 
+    "publication_date": "2013-09-22"
+  }
+},
+{
+  "pk": 48, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Shrikar Archak: Machine Learning Playground Using Docker ", 
+    "text": "", 
+    "tags": [
+      5, 
+      92, 
+      93
+    ], 
+    "link": "http://shrikar.com/blog/2013/09/19/machine-learning-playground-using-docker/", 
+    "images": [], 
+    "publication_date": "2013-09-19"
+  }
+},
+{
+  "pk": 49, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Codiez: Setup a Docker Container with MongoDB", 
+    "text": "", 
+    "tags": [
+      54, 
+      58
+    ], 
+    "link": "http://blog.codiez.co.za/2013/09/setup-a-docker-container-with-mongodb/", 
+    "images": [], 
+    "publication_date": "2013-09-04"
+  }
+},
+{
+  "pk": 50, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Barton George: Talking to the Docker Dudes", 
+    "text": "", 
+    "tags": [
+      94, 
+      95, 
+      96, 
+      97
+    ], 
+    "link": "http://bartongeorge.net/2013/09/12/talking-to-the-docker-dudes/", 
+    "images": [], 
+    "publication_date": "2013-09-12"
+  }
+},
+{
+  "pk": 51, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Wercker: Building and testing a cluster of RethinkDB Docker containers", 
+    "text": "", 
+    "tags": [
+      3, 
+      24, 
+      25, 
+      98, 
+      99, 
+      100
+    ], 
+    "link": "http://blog.wercker.com/2013/09/10/Building-and-testing-a-cluster-of-RethinkDB-Docker-containers.html", 
+    "images": [], 
+    "publication_date": "2013-09-10"
+  }
+},
+{
+  "pk": 52, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Thinkcube: How to put your development environment on docker?", 
+    "text": "", 
+    "tags": [
+      3, 
+      22, 
+      23, 
+      37, 
+      61, 
+      101
+    ], 
+    "link": "http://play.thinkcube.com/development-environment-on-docker", 
+    "images": [], 
+    "publication_date": "2013-10-18"
+  }
+},
+{
+  "pk": 53, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Matt Whiteley: Docker on i386", 
+    "text": "", 
+    "tags": [
+      3, 
+      23, 
+      58, 
+      102
+    ], 
+    "link": "http://mwhiteley.com/linux-containers/2013/08/31/docker-on-i386.html", 
+    "images": [], 
+    "publication_date": "2013-08-31"
+  }
+},
+{
+  "pk": 54, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Rackspace: Get Faster, More Affordable Cloud Applications With OS Virtualization", 
+    "text": "", 
+    "tags": [
+      3, 
+      22, 
+      23, 
+      24, 
+      52, 
+      103
+    ], 
+    "link": "http://www.rackspace.com/blog/get-faster-more-affordable-cloud-applications-with-os-virtualization-containers/", 
+    "images": [], 
+    "publication_date": "2013-08-26"
+  }
+},
+{
+  "pk": 55, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Atlassion: Deploy Java Apps With Docker = Awesome ", 
+    "text": "", 
+    "tags": [
+      3, 
+      22, 
+      23, 
+      58, 
+      61, 
+      87
+    ], 
+    "link": "http://blogs.atlassian.com/2013/06/deploy-java-apps-with-docker-awesome/", 
+    "images": [], 
+    "publication_date": "2013-06-13"
+  }
+},
+{
+  "pk": 56, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Rob Knight: Drupal on Docker", 
+    "text": "", 
+    "tags": [
+      87, 
+      89, 
+      99, 
+      104, 
+      105, 
+      106
+    ], 
+    "link": "http://robknight.org.uk/blog/2013/05/drupal-on-docker/", 
+    "images": [], 
+    "publication_date": "2013-05-13"
+  }
+},
+{
+  "pk": 57, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Puppet forge: Puppet module for installing Docker from the official PPA", 
+    "text": "", 
+    "tags": [
+      3, 
+      58
+    ], 
+    "link": "http://forge.puppetlabs.com/garethr/docker", 
+    "images": [], 
+    "publication_date": "2013-05-12"
+  }
+},
+{
+  "pk": 58, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Ken Cochrane: Running Docker on Rackspace with Ubuntu", 
+    "text": "", 
+    "tags": [
+      58, 
+      107
+    ], 
+    "link": "http://kencochrane.net/blog/2013/05/running-docker-on-rackspace-cloud/", 
+    "images": [], 
+    "publication_date": "2013-05-11"
+  }
+},
+{
+  "pk": 59, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Julien Barbier: Building your own SaaS with Docker", 
+    "text": "", 
+    "tags": [
+      3, 
+      108, 
+      109
+    ], 
+    "link": "http://www.slideshare.net/julienbarbier42/building-a-saas-using-docker", 
+    "images": [], 
+    "publication_date": "2013-04-14"
+  }
+},
+{
+  "pk": 60, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Flavio Castelli: Docker and openSUSE", 
+    "text": "", 
+    "tags": [
+      3, 
+      110
+    ], 
+    "link": "http://flavio.castelli.name/2013/04/12/docker-and-opensuse/", 
+    "images": [], 
+    "publication_date": "2013-04-12"
+  }
+},
+{
+  "pk": 61, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "John Costa: Installing Redis on Docker", 
+    "text": "", 
+    "tags": [
+      3, 
+      23, 
+      24, 
+      25, 
+      111
+    ], 
+    "link": "http://www.johnmcostaiii.net/2013/installing-redis-on-docker/", 
+    "images": [], 
+    "publication_date": "2013-04-07"
+  }
+},
+{
+  "pk": 62, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "BitTorrent Blog: Deploy BitTorrent Sync with Docker", 
+    "text": "", 
+    "tags": [
+      23, 
+      25, 
+      47, 
+      57, 
+      58, 
+      112
+    ], 
+    "link": "http://blog.bittorrent.com/2013/10/22/sync-hacks-deploy-bittorrent-sync-with-docker/", 
+    "images": [], 
+    "publication_date": "2013-10-22"
+  }
+},
+{
+  "pk": 63, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "jolicode: Navigate through your infrastructure with Docker", 
+    "text": "", 
+    "tags": [
+      3, 
+      25, 
+      38, 
+      113, 
+      114
+    ], 
+    "link": "http://jolicode.com/blog/navigate-through-your-infrastructure-with-docker", 
+    "images": [], 
+    "publication_date": "2013-10-23"
+  }
+},
+{
+  "pk": 64, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "OpenShift: PaaS Evolves with Linux Containers and OpenStack", 
+    "text": "", 
+    "tags": [
+      3, 
+      22, 
+      17, 
+      18, 
+      115, 
+      116, 
+      117, 
+      118, 
+      119, 
+      120
+    ], 
+    "link": "https://www.openshift.com/blogs/paas-evolves-with-linux-containers-and-openstack", 
+    "images": [], 
+    "publication_date": "2013-10-24"
+  }
+},
+{
+  "pk": 65, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Nirmata: Netflix OSS, meet Docker", 
+    "text": "", 
+    "tags": [
+      3, 
+      15, 
+      23, 
+      121, 
+      122, 
+      123, 
+      124, 
+      125
+    ], 
+    "link": "http://nirmata.com/2013/10/netflix-oss-meet-docker/", 
+    "images": [], 
+    "publication_date": "2013-10-25"
+  }
+},
+{
+  "pk": 66, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Blog How are you: Continuous Delivery with Docker and Jenkins part 2 ", 
+    "text": "", 
+    "tags": [
+      3, 
+      82, 
+      86, 
+      89, 
+      126, 
+      127
+    ], 
+    "link": "http://blog.howareyou.com/post/65048170054/continuous-delivery-with-docker-and-jenkins-part-ii", 
+    "images": [], 
+    "publication_date": "2013-10-25"
+  }
+},
+{
+  "pk": 67, 
+  "model": "base.genericpost", 
+  "fields": {
+    "category": 2, 
+    "title": "Eclipse Source: Continuous Deployment with Docker and Virgo", 
+    "text": "", 
+    "tags": [
+      3, 
+      25, 
+      78, 
+      128, 
+      129, 
+      130
+    ], 
+    "link": "http://eclipsesource.com/blogs/2013/10/25/continuous-deployment-with-docker-and-virgo/", 
+    "images": [], 
+    "publication_date": "2013-10-25"
+  }
+}
+]

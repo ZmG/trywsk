@@ -1,0 +1,33 @@
+{% load static %}
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static "css/bootstrap-custom.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "css/main.css" %}">
+    <link href='//fonts.googleapis.com/css?family=Cabin:400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <style>
+        body{
+            margin-top: 0px;
+            background-color: white;
+        }
+        input[type="text"] {
+            height: 25px;
+        }
+
+    </style>
+
+</head>
+
+</html>
+
+<body>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit">
+</form>
+
+</body>
+</html>

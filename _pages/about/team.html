@@ -1,0 +1,141 @@
+{% extends 'base.html' %}
+{% load navactive %}{% load markdown_deux_tags %}{% load gravatar %}{% load static %}
+{% block page_js %}{{ block.super }}
+<script>
+    function createBioBlock(element) {
+        var itemsPerRow = 4;
+        var teamMembers = $('.core-team > .team-member')
+        var insertPosition;
+
+        var position = teamMembers.index(element) + 1;
+        var modulo=position%itemsPerRow;
+
+        $('#bio').remove();
+        var newDiv = $('<div id="bio" class="bio">bio</div>');
+
+        newDiv.html($(".bio", element).html());
+
+        if (modulo == 0) {
+            insertPosition = position + 1;
+        } else {
+            insertPosition = position + 2;
+        }
+
+        if (insertPosition >= teamMembers.length) {
+            insertPosition = teamMembers.length -1;
+        }
+
+        newDiv.insertAfter(teamMembers[insertPosition])
+
+    }
+
+    $(document).ready(function() {
+      console.log ("ready");
+
+        $('.core-team > .team-member').click( function() {
+            createBioBlock(this);
+        });
+
+        $('.core-team > .team-member').keydown( function() {
+            createBioBlock(this);
+        });
+    });
+
+</script>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+
+
+<div class="row" >
+    <div class="span12 text-center">
+        <div class="copy-headline">
+            {% markdown %}{% block copy_headline %}
+                <h1>Placeholder for content</h1>
+            {% endblock %}{% endmarkdown %}
+        </div>
+    </div>
+</div>
+
+<div class="row" >
+    <div class="span12 paper">
+    <div class="span3">
+        {% include 'about/_menu.html' %}
+
+    </div>
+    <div id="" class="span8 main-copy ">
+        {% markdown %}{% block copy_introduction %}
+        {% endblock %}{% endmarkdown %}
+
+        {% markdown %}{% block top_contributors %}
+        {% endblock top_contributors %}{% endmarkdown %}
+
+        <div class="team contributor-team">
+            <div class="team-member">
+                <img src="{% static 'img/community/top_contributors_temp/tianon.jpeg' %}" alt="profile picture">
+                <span class="name">Tianon Gravi (tianon)</span>
+            </div>
+            <div class="team-member">
+                <img src="{% static 'img/community/top_contributors_temp/alexlarsson.jpeg' %}" alt="profile picture">
+                <span class="name">Alex Larsson (alexlarsson)</span>
+            </div>
+            <div class="team-member">
+                <img src="{% static 'img/community/top_contributors_temp/philips.jpeg' %}" alt="profile picture">
+                <span class="name">Brandon Philips (philips)</span>
+            </div>
+            <div class="team-member">
+                <img src="{% static 'img/community/top_contributors_temp/svendowideit.jpeg' %}" alt="profile picture">
+                <span class="name">Sven Dowideit (svendowideit)</span>
+            </div>
+
+    {#            <div class="team-member">#}
+    {#                <img src="{% static 'img/community/top_contributors_temp/KSid.png' %}" alt="profile picture">#}
+    {#                <span class="name">Kawsar Saiyeed</span>#}
+    {#            </div>#}
+    {#            <div class="team-member">#}
+    {#                <img src="{% static 'img/community/top_contributors_temp/dsissitka.png' %}" alt="profile picture">#}
+    {#                <span class="name">dsissitka (dsissitka)</span>#}
+    {#            </div>#}
+    {#            <div class="team-member">#}
+    {#                <img src="{% static 'img/community/top_contributors_temp/calavera.jpeg' %}" alt="profile picture">#}
+    {#                <span class="name">David Calavera (calavera)</span>#}
+    {#            </div>#}
+    {#            <div class="team-member">#}
+    {#                <img src="{% static 'img/community/top_contributors_temp/drewcsillag.png' %}" alt="profile picture">#}
+    {#                <span class="name">Drew Csillag (drewcsillag)</span>#}
+    {#            </div>#}
+
+            <p>We are still working on making this update fully automatically, therefore right now you might see this
+            list to be out-of-date at times. For the most recent version:
+            <a href="https://github.com/dotcloud/docker/pulse/monthly">See all stats on the Github pulse page -></a></p>
+        </div>
+        <br style="clear:both;">
+
+        {% markdown %}{% block teammembers %}
+        {% endblock teammembers %}{% endmarkdown %}
+
+        <div class="team core-team">
+        {% for team_member in core_team %}
+
+            <div class="team-member" tabindex="0">
+                <img src="{% gravatar_url team_member.gravatar_email 145 %}" alt="profile picture">
+                <span class="name">{{ team_member.full_name }}</span>
+                <span class="bio" style="display: none">{{ team_member.bio }}</span>
+            </div>
+
+        {% endfor %}
+        </div>
+
+    </div>
+    </div>
+
+
+</div>
+
+
+</div>
+
+{% endblock %}

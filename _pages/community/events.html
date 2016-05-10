@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load navactive %}{% load markdown_deux_tags %}{% load gravatar %}
+{% block page_js %}{{ block.super }}
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+<div class="row" >
+    <div class="span12 text-center">
+        <div class="copy-headline">
+            {% markdown %}{% block copy_headline %}
+                <h1>Placeholder for content</h1>
+            {% endblock %}{% endmarkdown %}
+        </div>
+    </div>
+</div>
+
+<div class="row" >
+    <div class="span12 paper">
+        <div class="span3">
+            {% include 'community/_menu.html' %}
+
+        </div>
+        <div id="" class="span8 main-copy">
+            {% markdown %}{% block copy_introduction %}
+            {% endblock %}{% endmarkdown %}
+
+            <h3>Upcoming events</h3>
+            {% for event in upcoming_events %}
+                <div class="event">
+                    <h4>{{ event.date_and_time|date:"D M  d" }} • {{ event.title }} - {{ event.location }}</h4>
+
+                    {% if event.link %}
+                        {{ event.text|add:'<span class="read-more"><a href="'|add:event.link|add:'"> Read more -></a></span>'|markdown }}
+                    {% else %}
+                        {{ event.text|markdown }}
+                    {% endif %}
+
+                </div>
+            {% endfor %}
+            <h3>Past events</h3>
+            {% for event in past_events %}
+                <div class="event">
+                    <h4>{{ event.date_and_time|date:"D M  d" }} • {{ event.title }} - {{ event.location }}</h4>
+
+                    {% if event.link %}
+                        {{ event.text|add:'<span class="read-more"><a href="'|add:event.link|add:'"> Read more -></a></span>'|markdown }}
+                    {% else %}
+                        {{ event.text|markdown }}
+                    {% endif %}
+                </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+{% endblock %}

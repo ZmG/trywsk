@@ -1,0 +1,226 @@
+[
+{
+  "pk": 1, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Thatcher Peskens is User Experience Designer and front end developer at dotCloud. He comes from the Netherlands and with a background in industrial design, web development and experience in web hosting he works on making everything user facing a pleasure to use.", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "thatcher@dotcloud.com", 
+    "show_as_team": true, 
+    "full_name": "Thatcher Peskens", 
+    "email": "", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 2, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Serial entrepreneur. CEO of dotCloud/Docker. Former CEO of Gluster (now part of Red Hat) and Plaxo (now part of Comcast Interactive). Prior to that: VeriSign, Avid, Sun Microsystems, cutting apricots in Cupertino, doing population research in Kenya, and trying to start a business school in Tashkent.", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "golubbe40@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "Ben Golub", 
+    "email": "", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 3, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Eric serves as CFO for dotCloud and is one of its first employees. A native from France, Eric was the financial leader behind many multi-national companies in the high-tech field. He hopes to use his 20 years of experience to grow dotCloud into a market leader.  Beyond finance, Eric unofficially sports the title of CWO \u2013 Chief Wine Officer.", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "eric@dotcloud.com", 
+    "show_as_team": true, 
+    "full_name": "Eric Bardin", 
+    "email": "", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 4, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "John Costa is a developer support engineer at dotCloud.  He brings with him a background in web technologies and systems engineering.", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "john.costa@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "John Costa", 
+    "email": "john.costa@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 5, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Michael Crosby is one of the newest members of the dotCloud team working full time on Docker as a core maintainer.  Michael has been an active member of various open source communities and has worked as a software engineer designing beautiful APIs in various industries.", 
+    "sort_weight": 10, 
+    "index_name": "crosbymichael", 
+    "gravatar_email": "crosby.michael@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "Michael Crosby", 
+    "email": "michael.crosby@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 6, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Yannis is the Operations Manager at dotCloud, unofficially the Director of Awesome, wearing the many hats needed to run the back office from bookkeeper to salesperson to office manager. Yannis graduated from the USC Marshall School of Business with emphasis in Corporate Finance and Entrepreneurship.", 
+    "sort_weight": 10, 
+    "index_name": "yannis", 
+    "gravatar_email": "ypeyret@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "Yannis Peyret", 
+    "email": "", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 7, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Guillaume J. Charmes is a software engineer at dotCloud. He is working on Docker since day 1 in 2013. He is specialized in Golang, a language that he use since its very beginning. He likes to travel, he has been a software engineer in 5 countries around the world!. Contact Guillaume on twitter: @charme_g.", 
+    "sort_weight": 10, 
+    "index_name": "creack", 
+    "gravatar_email": "charmes.guillaume@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "Guillaume Charles", 
+    "email": "guillaume.charmes@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 8, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Andy Rothfusz is responsible for Developer Support on the dotCloud PaaS as well as for maintaining the Docker documentation. He's helped build and manage support teams at startups and large corporations, enabling engineers everywhere to use everything from graphics hardware to cloud services.", 
+    "sort_weight": 10, 
+    "index_name": "rufus", 
+    "gravatar_email": "andy@dotcloud.com", 
+    "show_as_team": true, 
+    "full_name": "Andy Rothfusz", 
+    "email": "andrew.rothfusz@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 9, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Ken Cochrane is a Senior member of dotCloud. Ken is responsible for a number key aspects of Docker including the Index and Registry. He is a graduate of the University of Maine, and co-founder of three companies (Zanbow, Camprate.com, and Popcorn Monsters).", 
+    "sort_weight": 10, 
+    "index_name": "kencochrane", 
+    "gravatar_email": "kencochrane@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "Ken Cochrane", 
+    "email": "ken.cochrane@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 10, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "As dotCloud\u2019s first engineering hire, Sam was part of the tiny team that shipped our first private beta in 2010. Since then, he has been instrumental in scaling the platform to tens of millions of unique visitors for tens of thousands of developers across the world, leaving his mark on every major feature and component along the way. ", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "sam.alba@gmail.com", 
+    "show_as_team": true, 
+    "full_name": "Sam Alba", 
+    "email": "samalba@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 11, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "J\u00e9r\u00f4me is a senior engineer at dotCloud where he has earned the nickname \"master Yoda\". His left hand cares for the servers powering the dotCloud PAAS, while his right hand builds cool hacks around Docker. When he's annoyed, he threatens to replace things with a very small shell script. ", 
+    "sort_weight": 10, 
+    "index_name": "jpetazzo", 
+    "gravatar_email": "jerome.petazzoni@dotcloud.com", 
+    "show_as_team": true, 
+    "full_name": "J\u00e9r\u00f4me Petazzoni", 
+    "email": "", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 12, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Solomon Hykes is the founder of dotCloud, and the creator and benevolent dictator of the Docker project. A Forbes 30 under 30 and YCombinator alumni, Solomon led dotCloud as CEO through 5 years of fundraising, business operations and product launches before focusing entirely on Docker. ", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "solomon@dotcloud.com", 
+    "show_as_team": true, 
+    "full_name": "Solomon Hykes", 
+    "email": "solomon@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 13, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Just recently joined the talented folks at dotCloud to help propel Docker into the stratosphere.\r\nPreviously hands-on Software Infrastructure and Quality Assurance Director at mobile banking innovator ClairMail, Inc, which grew from a 10-person start-up to successful acquisition by Monitise", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "nick@stinemates.org", 
+    "show_as_team": true, 
+    "full_name": "Nick Stinemates", 
+    "email": "nick@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 14, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Daniel Mizyrycki is a software testing and automation engineer at dotCloud. Being a Debian maintainer, pythonista and founder of the first Argentine Linux user group (BALUG) back in 1993 he strongly believes on open-source. He worked in companies like Amazon (US), Bovespa (Brazil) and Intergram (Argentina). ", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "mzdaniel@glidelink.net", 
+    "show_as_team": true, 
+    "full_name": "Daniel Mizyrycki", 
+    "email": "mzdaniel@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 15, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "joffrey", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "f.joffrey@gmail.com", 
+    "show_as_team": false, 
+    "full_name": "Joffrey", 
+    "email": "joffrey@dotcloud.com", 
+    "github_handle": ""
+  }
+},
+{
+  "pk": 16, 
+  "model": "base.teammember", 
+  "fields": {
+    "bio": "Julien Barbier", 
+    "sort_weight": 10, 
+    "index_name": "", 
+    "gravatar_email": "", 
+    "show_as_team": false, 
+    "full_name": "Julien Barbier", 
+    "email": "", 
+    "github_handle": ""
+  }
+}
+]
