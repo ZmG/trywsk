@@ -1,17 +1,16 @@
 #Setting up the application:
-1.Clone trywsk repository to your local machine
-2.Navigate to the trywsk folder 
-3.Deploy to bluemix: cf push 
+1. Clone trywsk repository to your local machine
+2. Navigate to the trywsk folder 
+3. Deploy to bluemix: cf push 
 
 #trywsk:
 Builds on
-	Django 1.5
+      Django 1.5
 Making simple changes
-	This project uses a simplified Django structure, and has the notable feature that all major text contained on this website can be maintained by changing the markdown files contained in /_pages/. There is a good chance this will be the only part you need to touch.
+      This project uses a simplified Django structure, and has the notable feature that all major text contained on this website can be maintained by changing the markdown files contained in /_pages/. There is a good chance this will be the only part you need to touch.
 
 #Dependancies:
-1. DB:create an Elephant database from the Bluemix Catalog and give it a name that matches the service name in the manifest.yml
-2. wsk_tutorial project 
+1. wsk_tutorial project 
 
 
 #Deployment:
