@@ -19,45 +19,45 @@ vcap_port = os.environ.get('VCAP_APP_PORT')
 vcap_config = os.environ.get('VCAP_SERVICES')
 decoded_config = json.loads(vcap_config)
 
-for key, value in decoded_config.iteritems():
-    if key.startswith('mysql'):
-        db_creds = decoded_config[key][0]['credentials']
-        engine = 'django.db.backends.mysql' 
-    elif key.startswith('cleardb'):
-        db_creds = decoded_config[key][0]['credentials']
-        engine = 'django.db.backends.mysql'
-    elif key.startswith('elephantsql'):
-        db_creds = decoded_config[key][0]['credentials']
-        pgurl = urlparse.urlparse(str(db_creds['uri']))
-        db_creds['hostname']=pgurl.hostname
-        if pgurl.port:
-            db_creds['port']=pgurl.port
-        else:
-            db_creds['port']=5432
-        db_creds['username']=pgurl.username
-        db_creds['password']=pgurl.password
-        db_creds['name']=pgurl.path[1:]
-        engine = 'django.db.backends.postgresql_psycopg2'
+# for key, value in decoded_config.iteritems():
+#     if key.startswith('mysql'):
+#         db_creds = decoded_config[key][0]['credentials']
+#         engine = 'django.db.backends.mysql' 
+#     elif key.startswith('cleardb'):
+#         db_creds = decoded_config[key][0]['credentials']
+#         engine = 'django.db.backends.mysql'
+#     elif key.startswith('elephantsql'):
+#         db_creds = decoded_config[key][0]['credentials']
+#         pgurl = urlparse.urlparse(str(db_creds['uri']))
+#         db_creds['hostname']=pgurl.hostname
+#         if pgurl.port:
+#             db_creds['port']=pgurl.port
+#         else:
+#             db_creds['port']=5432
+#         db_creds['username']=pgurl.username
+#         db_creds['password']=pgurl.password
+#         db_creds['name']=pgurl.path[1:]
+#         engine = 'django.db.backends.postgresql_psycopg2'
 
-if db_creds:
-    db_host = db_creds['hostname']
-    db_port = db_creds['port']  
-    db_username = db_creds['username']
-    db_password = db_creds['password']
-    db_db = db_creds['name']
-    db_url = str(db_creds['uri'])
-    db_name = db_creds['name']
+# if db_creds:
+#     db_host = db_creds['hostname']
+#     db_port = db_creds['port']  
+#     db_username = db_creds['username']
+#     db_password = db_creds['password']
+#     db_db = db_creds['name']
+#     db_url = str(db_creds['uri'])
+#     db_name = db_creds['name']
 
 
 DATABASES = {
-    'default': {
-        'ENGINE': engine, #
-        'NAME': db_name,
-        'USER': db_username,
-        'PASSWORD': db_password,
-        'HOST': db_host,
-        'PORT': db_port,
-    }
+    # 'default': {
+    #     'ENGINE': engine, #
+    #     'NAME': db_name,
+    #     'USER': db_username,
+    #     'PASSWORD': db_password,
+    #     'HOST': db_host,
+    #     'PORT': db_port,
+    # }
 }
 
 
