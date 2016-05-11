@@ -15,8 +15,9 @@ Making simple changes
 
 #Deployment:
    `cf push` 
-Delete app from bluemix:
-   `cf delete learn whisk`
+   
+#Delete app from bluemix:
+   `cf delete learnwhisk`
 
 #wsk_tutorial:
 1. Adding steps to trails:
