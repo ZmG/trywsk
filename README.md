@@ -4,14 +4,10 @@
 3. Deploy to bluemix: cf push 
 
 #trywsk:
-Builds on
-      Django 1.5
-Making simple changes
-      This project uses a simplified Django structure, and has the notable feature that all major text contained on this website can be maintained by changing the markdown files contained in /_pages/. There is a good chance this will be the only part you need to touch.
+This is the project containing the base page that serves as a catalog for the tutorials/trails. It builds on Django 1.5. This project uses a simplified Django structure, and has the notable feature that all major text contained on this website can be maintained by changing the markdown files contained in /_pages/. There is a good chance this will be the only part you need to touch.
 
 #Dependancies:
 1. wsk_tutorial project 
-
 
 #Deployment:
    `cf push` 
