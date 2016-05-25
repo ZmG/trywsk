@@ -14,18 +14,3 @@ This is the project containing the base page that serves as a catalog for the tu
    
 #Delete app from bluemix:
    `cf delete learnwhisk`
-
-#wsk_tutorial:
-1. Adding steps to trails:
-    1. Open the steps.coffee file that is located in wsk_tutorial/static/js directory.
-    2. Locate the corresponding queue to which you'd like add a step to. For example, trigger_q holds all the step items for the trigger tutorial. 
-    3. Push a new item to the corresponding q. You can reuse the structure from previous steps. Example: trigger_q.push({...})
-
-2. Updating the wsk interpreter: 
-    1. Open the terminal.coffee file that is located in the wsk_tutorial/static/js directory.
-    2. Adding a new command to the interpreter: 
- 		a. Locate "WSK Interpreter" comment block 
- 		b. Add a new if clause to the wsk if-else code block and echo to the corresponding variable holding the content for the output.
- 	3. Adding content for the output of a command:
- 		a. Locate "WSK Content" comment block. 
- 		b. Create a new variable holding the output content for the command to be added. 
