@@ -14,3 +14,7 @@ This is the project containing the base page that serves as a catalog for the tu
    
 #Delete app from bluemix:
    `cf delete learnwhisk`
+   
+#Adding Tutorial/Trails links
+1. Locate getting-started.md in the _pages directory(i.e. trywsk/_pages/getting_started.md)
+2. Add a new div tag to the tutorial links div
