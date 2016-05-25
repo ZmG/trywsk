@@ -8,6 +8,7 @@ This is the project containing the base page that serves as a catalog for the tu
 
 #Dependencies:
 Dependencies are listed in the requirements.txt file. One of the most important dependencies is the wsk_tutorial project which contains the wsk interpreter logic.
+
 1. wsk_tutorial project 
 
 #Deployment:
