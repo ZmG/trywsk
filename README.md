@@ -20,3 +20,8 @@ Dependencies are listed in the trywsk/requirements.txt file. One of the most imp
 #Adding Tutorial/Trails links
 1. Locate getting-started.md in the _pages directory(i.e. trywsk/_pages/getting_started.md)
 2. Add a new div tag to the tutorial links div
+
+#Attribution
+This project is a fork of the docker.io tutorial.     
+Blog Post: https://blog.docker.com/2013/08/introducing-an-interactive-docker-tutorial/)   
+Git repo: https://github.com/dhrp/docker-tutorial
