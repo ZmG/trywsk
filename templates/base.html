@@ -39,8 +39,8 @@
     {% block page_styles %}{% endblock page_styles %}
     {% block js %}
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
-    <script src="{% static 'js/vendor/bootstrap.min.js' %}"></script>
-    <script src="{% static 'js/vendor/jquery.scrollTo-min.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.6/jquery.scrollTo.min.js"></script>
     <script src="{% static 'js/utils.js' %}"></script>
 
     {% endblock js %} {% block page_js %}{% endblock page_js %}
@@ -65,16 +65,13 @@
             </ul>
         </div>
 </div>
-
 <!-- end of navigation -->
-
 
 {% block content %}
 {% endblock %}
 
 <div id="push"></div>
 </div> <!-- end wrap -->
-
 </div>
 
 <script type="text/javascript">
@@ -96,6 +93,5 @@
             shiftWindow();
         }
     });
-
 </script>
 </body>
